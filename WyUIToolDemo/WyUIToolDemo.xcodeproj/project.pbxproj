@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B067E7EF23D4A2EE0002F674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B067E7EE23D4A2EE0002F674 /* AppDelegate.m */; };
+		B067E7F223D4A2EE0002F674 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B067E7F123D4A2EE0002F674 /* SceneDelegate.m */; };
+		B067E7F523D4A2EE0002F674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B067E7F423D4A2EE0002F674 /* ViewController.m */; };
+		B067E7F823D4A2EE0002F674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B067E7F623D4A2EE0002F674 /* Main.storyboard */; };
+		B067E7FA23D4A2F00002F674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B067E7F923D4A2F00002F674 /* Assets.xcassets */; };
+		B067E7FD23D4A2F00002F674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B067E7FB23D4A2F00002F674 /* LaunchScreen.storyboard */; };
+		B067E80023D4A2F00002F674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B067E7FF23D4A2F00002F674 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B067E7EA23D4A2EE0002F674 /* WyUIToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyUIToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B067E7ED23D4A2EE0002F674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B067E7EE23D4A2EE0002F674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B067E7F023D4A2EE0002F674 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B067E7F123D4A2EE0002F674 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B067E7F323D4A2EE0002F674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B067E7F423D4A2EE0002F674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B067E7F723D4A2EE0002F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B067E7F923D4A2F00002F674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B067E7FC23D4A2F00002F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B067E7FE23D4A2F00002F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B067E7FF23D4A2F00002F674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B067E80723D4A3740002F674 /* WyUITool.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WyUITool.podspec; path = ../../WyUITool.podspec; sourceTree = "<group>"; };
+		B067E80823D4A3740002F674 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		B067E80923D4A3740002F674 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B067E7E723D4A2EE0002F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B067E7E123D4A2EE0002F674 = {
+			isa = PBXGroup;
+			children = (
+				B067E80623D4A3190002F674 /* Podspec File */,
+				B067E7EC23D4A2EE0002F674 /* WyUIToolDemo */,
+				B067E7EB23D4A2EE0002F674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B067E7EB23D4A2EE0002F674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B067E7EA23D4A2EE0002F674 /* WyUIToolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B067E7EC23D4A2EE0002F674 /* WyUIToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B067E7ED23D4A2EE0002F674 /* AppDelegate.h */,
+				B067E7EE23D4A2EE0002F674 /* AppDelegate.m */,
+				B067E7F023D4A2EE0002F674 /* SceneDelegate.h */,
+				B067E7F123D4A2EE0002F674 /* SceneDelegate.m */,
+				B067E7F323D4A2EE0002F674 /* ViewController.h */,
+				B067E7F423D4A2EE0002F674 /* ViewController.m */,
+				B067E7F623D4A2EE0002F674 /* Main.storyboard */,
+				B067E7F923D4A2F00002F674 /* Assets.xcassets */,
+				B067E7FB23D4A2F00002F674 /* LaunchScreen.storyboard */,
+				B067E7FE23D4A2F00002F674 /* Info.plist */,
+				B067E7FF23D4A2F00002F674 /* main.m */,
+			);
+			path = WyUIToolDemo;
+			sourceTree = "<group>";
+		};
+		B067E80623D4A3190002F674 /* Podspec File */ = {
+			isa = PBXGroup;
+			children = (
+				B067E80923D4A3740002F674 /* LICENSE */,
+				B067E80823D4A3740002F674 /* README.md */,
+				B067E80723D4A3740002F674 /* WyUITool.podspec */,
+			);
+			path = "Podspec File";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B067E7E923D4A2EE0002F674 /* WyUIToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B067E80323D4A2F00002F674 /* Build configuration list for PBXNativeTarget "WyUIToolDemo" */;
+			buildPhases = (
+				B067E7E623D4A2EE0002F674 /* Sources */,
+				B067E7E723D4A2EE0002F674 /* Frameworks */,
+				B067E7E823D4A2EE0002F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WyUIToolDemo;
+			productName = WyUIToolDemo;
+			productReference = B067E7EA23D4A2EE0002F674 /* WyUIToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B067E7E223D4A2EE0002F674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = wayne;
+				TargetAttributes = {
+					B067E7E923D4A2EE0002F674 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B067E7E523D4A2EE0002F674 /* Build configuration list for PBXProject "WyUIToolDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B067E7E123D4A2EE0002F674;
+			productRefGroup = B067E7EB23D4A2EE0002F674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B067E7E923D4A2EE0002F674 /* WyUIToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B067E7E823D4A2EE0002F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B067E7FD23D4A2F00002F674 /* LaunchScreen.storyboard in Resources */,
+				B067E7FA23D4A2F00002F674 /* Assets.xcassets in Resources */,
+				B067E7F823D4A2EE0002F674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B067E7E623D4A2EE0002F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B067E7F523D4A2EE0002F674 /* ViewController.m in Sources */,
+				B067E7EF23D4A2EE0002F674 /* AppDelegate.m in Sources */,
+				B067E80023D4A2F00002F674 /* main.m in Sources */,
+				B067E7F223D4A2EE0002F674 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B067E7F623D4A2EE0002F674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B067E7F723D4A2EE0002F674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B067E7FB23D4A2F00002F674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B067E7FC23D4A2F00002F674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B067E80123D4A2F00002F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B067E80223D4A2F00002F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B067E80423D4A2F00002F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WyUIToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenix.WyUIToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B067E80523D4A2F00002F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WyUIToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenix.WyUIToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B067E7E523D4A2EE0002F674 /* Build configuration list for PBXProject "WyUIToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B067E80123D4A2F00002F674 /* Debug */,
+				B067E80223D4A2F00002F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B067E80323D4A2F00002F674 /* Build configuration list for PBXNativeTarget "WyUIToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B067E80423D4A2F00002F674 /* Debug */,
+				B067E80523D4A2F00002F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B067E7E223D4A2EE0002F674 /* Project object */;
+}
