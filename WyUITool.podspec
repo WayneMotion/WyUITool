@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WyUITool"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A convenient tool about UI for Objective-C."
 
   # s.description  = <<-DESC
