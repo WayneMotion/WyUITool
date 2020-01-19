@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "A convenient tool about UI for Objective-C."
 
   # s.description  = <<-DESC
-                   DESC
+  #                 DESC
 
   s.homepage     = "https://github.com/WayneMotion/WyUITool"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
